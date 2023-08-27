@@ -1,0 +1,64 @@
+h1 {
+    color: tomato;
+    text-shadow: 5px 7px 9px black ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 160px;
+    font-weight: bold;
+    font-style: italic;
+    margin: 0px;
+    text-align: center;
+    padding-top: 5% ;
+}
+
+p {
+    color: tomato;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 60px;
+    font-weight: lighter;
+    font-style: oblique;
+}
+
+div {
+    height: 40px;
+    width: 30%;
+}
+
+.Altura {
+    height: 60px;
+    background-color: chartreuse;
+}
+
+#Estilo {
+    height: 100px;
+    background-color: crimson;
+}
+
+header {
+    background-color: beige;
+}
+
+.titulo {
+    background-image: url('../img/header.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 350px;
+}
+body{
+    margin: 0px;
+}
+.contenido{
+    background-color: aqua ;
+    height: 250px;
+    width: 60%;
+
+}
+.anuncios{
+    background-color: aquamarine;
+    height: 250px;
+    width: 40%;
+}
+.contenedor{
+    display: flex;
+    width: 100%;
+}
